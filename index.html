@@ -8,15 +8,35 @@
     <script src="nightMODE.js"></script>
   </head>
   <body>
+    <script>
+      function fetchArticle(fileName) {
+        fetch(fileName).then(function(response) {
+          response.text().then(function(text) {
+            document.querySelector('#info').innerHTML=text;
+          })
+        })
+      }
+    </script>
     <div class="head">
       <div class="congratulations" id="leftalign"></div>
       <a id="title"></a>
       <div class="congratulations" id="rightalign"></div>
     </div>
-    <input class="nightmode" type="button" value="NightMode" onclick="
-      nightDay(this);
-    ">
-    <article id="countdown"></article>
+    <div class="toolbar">
+      <input class="nightmode" type="button" value="NightMode" onclick="
+        nightDay(this);
+      ">
+      <a id="infolink" title="Information" href="#!Info" onclick="
+        fetchArticle('information');
+      ">Info</a>
+    </div>
+    <article id="countdown">
+      <p class="timeleft" id="day"></p>
+      <p class="timeleft" id="hour"></p>
+      <p class="timeleft" id="min"></p>
+      <p class="timeleft" id="sec"></p>
+    </article>
     <article id="emphasize"></article>
+    <article id="info"></article>
   </body>
 </html>
