@@ -1,0 +1,46 @@
+.head  {
+  font-size: 55px;
+  display:grid;
+  border-bottom:4px gray dotted;
+  padding:15px;
+  /*padding-bottom: 30px;*/
+  margin:0;
+  grid-template-columns:1fr 1000px 1fr;
+}
+#title  {
+  text-align: center;
+}
+#leftalign  {
+  text-align: left;
+}
+#rightalign {
+  text-align: right;
+}
+.congratulations  {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+#countdown  {
+  display: grid;
+  text-align: center;
+  font-size: 50px;
+  padding:30px;
+}
+#emphasize  {
+  display: grid;
+  /*color: blue;*/
+  text-align: center;
+  font-size:100px;
+}
+.nightmode {
+  border:5px;
+  border-radius: 25px;
+  color:white;
+  background-color: black;
+}
+.daymode {
+  border:5px;
+  border-radius: 25px;
+  color:black;
+  background-color:white;
+}
