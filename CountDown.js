@@ -44,7 +44,7 @@ var x = setInterval(function() {
   }
 
   // Count down is finished
-  else if (-86400000 < distance && distance < 0) {
+  if (-86400000 < distance && distance < 0) {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
     document.getElementById("countdown").innerHTML = "It's your day!<br>Have the best birthday ever!";
