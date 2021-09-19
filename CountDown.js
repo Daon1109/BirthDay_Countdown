@@ -1,5 +1,5 @@
 // Set the date program will be counting down to
-var countDownDate = new Date("Jun 11, 2022 00:00:00").getTime();
+var countDownDate = new Date("Sep 20, 2021 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -31,7 +31,7 @@ var x = setInterval(function() {
   document.getElementById("hour").innerHTML = hours + " Hour ";
   document.getElementById("min").innerHTML = minutes + " Minute ";
   document.getElementById("sec").innerHTML = seconds + " Second ";
-  document.getElementById("tt1").innerHTML = "OOO 생일";
+  document.getElementById("tt1").innerHTML = "정윤서 생일";
   document.getElementById("tt2").innerHTML = "카운트다운";
   document.getElementById("leftalign").innerHTML = "***";
   document.getElementById("rightalign").innerHTML = "***";
@@ -47,7 +47,7 @@ var x = setInterval(function() {
   else if (-86400000 < distance && distance < 0) {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
-    document.getElementById("countdown").innerHTML = "It's your day!<br>Have the best birthday ever!";
+    document.getElementById("countdown").innerHTML = "Forget about the past, you can’t change it.<br>Forget about the future, you can’t predict it.<br>And forget about the present, I didn’t get you one.<br>Happy birthday!";
     document.getElementById("title").innerHTML = "생일 ㅊㅋ";
     document.getElementById("leftalign").innerHTML = "생";
     document.getElementById("rightalign").innerHTML = "축";
