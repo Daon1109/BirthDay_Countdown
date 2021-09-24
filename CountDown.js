@@ -47,7 +47,7 @@ var x = setInterval(function() {
   else if (-86400000 < distance && distance < 0) {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
-    document.getElementById("countdown").innerHTML = "Forget about the past, you can’t change it.<br>Forget about the future, you can’t predict it.<br>And forget about the present, I didn’t get you one.<br>Happy birthday!";
+    document.getElementById("countdown").innerHTML = "생축";
     document.getElementById("title").innerHTML = "생일 ㅊㅋ";
     document.getElementById("leftalign").innerHTML = "생";
     document.getElementById("rightalign").innerHTML = "축";
