@@ -1,5 +1,5 @@
 // Set the date program will be counting down to
-var countDownDate = new Date("Jun 11, 2022 00:00:00").getTime();
+var countDownDate = new Date("Jul 27, 2022 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -31,7 +31,7 @@ var x = setInterval(function() {
   document.getElementById("hour").innerHTML = hours + " Hour ";
   document.getElementById("min").innerHTML = minutes + " Minute ";
   document.getElementById("sec").innerHTML = seconds + " Second ";
-  document.getElementById("tt1").innerHTML = "OOO 생일";
+  document.getElementById("tt1").innerHTML = "주후닝 생일";
   document.getElementById("tt2").innerHTML = "카운트다운";
   document.getElementById("leftalign").innerHTML = "***";
   document.getElementById("rightalign").innerHTML = "***";
@@ -47,8 +47,8 @@ var x = setInterval(function() {
   else if (-86400000 < distance && distance < 0) {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
-    document.getElementById("countdown").innerHTML = "It's your day!<br>Have the best birthday ever!";
-    document.getElementById("title").innerHTML = "생일 ㅊㅋ";
+    document.getElementById("countdown").innerHTML = "섹스";
+    document.getElementById("title").innerHTML = "<a href="pornhub.com">PornHub</a>";
     document.getElementById("leftalign").innerHTML = "생";
     document.getElementById("rightalign").innerHTML = "축";
     document.getElementById("emphasize").innerHTML = " ";
