@@ -48,7 +48,7 @@ var x = setInterval(function() {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
     document.getElementById("countdown").innerHTML = "(.Y.)";
-    document.getElementById("title").innerHTML = "<a href='pornhub.com'>PornHub</a>";
+    document.getElementById("title").innerHTML = "PornHub";
     document.getElementById("leftalign").innerHTML = "섹";
     document.getElementById("rightalign").innerHTML = "스";
     document.getElementById("emphasize").innerHTML = " ";
