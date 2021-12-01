@@ -47,10 +47,10 @@ var x = setInterval(function() {
   else if (-86400000 < distance && distance < 0) {
     document.querySelector(".timeleft").innerHTML = " ";
     document.querySelector(".titledesign").innerHTML = " ";
-    document.getElementById("countdown").innerHTML = "섹스";
-    document.getElementById("title").innerHTML = "<a href="pornhub.com">PornHub</a>";
-    document.getElementById("leftalign").innerHTML = "생";
-    document.getElementById("rightalign").innerHTML = "축";
+    document.getElementById("countdown").innerHTML = "(.Y.)";
+    document.getElementById("title").innerHTML = "<a href='pornhub.com'>PornHub</a>";
+    document.getElementById("leftalign").innerHTML = "섹";
+    document.getElementById("rightalign").innerHTML = "스";
     document.getElementById("emphasize").innerHTML = " ";
   }
 
